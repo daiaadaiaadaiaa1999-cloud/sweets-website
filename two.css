@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+  background-color: #000; 
+  color: #f8f8f8; 
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  padding-top: 60px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav button {
+  background-color: #002b5b; 
+  color: #d4af37;   
+  border: 2px solid #d4af37;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Cairo", sans-serif;
+  transition: 0.3s ease;
+}
+
+nav button:hover {
+  background-color: #d4af37;
+  color: #002b5b;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+
+header {
+  background-color: #000; 
+  color: #d4af37;
+  padding: 30px 15px;
+  border-bottom: 2px solid #d4af37;
+}
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  padding: 40px;
+}
+
+.gallery-card {
+  background-color: #111;
+  border: 2px solid #d4af37;
+  border-radius: 12px;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.gallery-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(255, 215, 0, 0.3);
+}
+
+.gallery-card img {
+  max-width: 50%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.gallery-card h3 {
+  color: #d4af37;
+  font-size: 18px;
+  margin: 0;
+}
+.gallery-card p {
+  color: #ccc;
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+.gallery-card button {
+  background-color: #002b5b; /* كحلي */
+  color: #d4af37;           /* ذهبي */
+  border: 2px solid #d4af37;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Cairo", sans-serif;
+  transition: 0.3s ease;
+}
+
+.gallery-card button:hover {
+  background-color: #d4af37;
+  color: #002b5b;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+.gallery-card p {
+  color: #ccc;
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+.gallery-card button {
+  background-color: #002b5b; /* كحلي */
+  color: #d4af37;           /* ذهبي */
+  border: 2px solid #d4af37;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Cairo", sans-serif;
+  transition: 0.3s ease;
+}
+
+.gallery-card button:hover {
+  background-color: #d4af37;
+  color: #002b5b;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.contact-form {
+  background-color: #111;
+  border: 2px solid #d4af37;
+  border-radius: 12px;
+  padding: 25px;
+  width: 100%;
+  max-width: 450px;
+  text-align: right;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+}
+
+.contact-form label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #d4af37;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d4af37;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  background-color: #000;
+  color: #f8f8f8;
+  font-family: "Cairo", sans-serif;
+}
+
+.contact-form textarea {
+  height: 120px;
+  resize: none;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #002b5b;
+  color: #d4af37;
+  border: 2px solid #d4af37;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.contact-form button:hover {
+  background-color: #d4af37;
+  color: #002b5b;
+  transform: translateY(-3px);
+}
+footer {
+  background-color: #000;       /* أسود */
+  color: #d4af37;               /* ذهبي */
+  text-align: center;
+  padding: 20px 10px;
+  border-top: 2px solid #d4af37;
+  margin-top: 40px;
+  font-family: "Cairo", sans-serif;
+}
+
+footer p {
+  margin: 5px 0;
+  font-size: 16px;
+}
